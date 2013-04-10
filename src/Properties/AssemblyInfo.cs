@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("OptiBrowser")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A browser launcher which allows you to choose which browser your links are opened in.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Marc Cawood")]
 [assembly: AssemblyProduct("OptiBrowser")]
