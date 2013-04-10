@@ -1,10 +1,14 @@
 #Visual Studio files
 [Oo]bj
 [Bb]in
+local
 *.user
 *.suo
 *.[Cc]ache
 *.bak
+*.pdb
+*.vshost.exe
+*.vshost.exe.manifest
 *.ncb
 *.log 
 *.DS_Store

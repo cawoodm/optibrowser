@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnIE = new System.Windows.Forms.Button();
             this.btnFF = new System.Windows.Forms.Button();
             this.btnChrome = new System.Windows.Forms.Button();
@@ -96,6 +97,7 @@
             this.Controls.Add(this.btnChrome);
             this.Controls.Add(this.btnFF);
             this.Controls.Add(this.btnIE);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "OptiBrowser";
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
