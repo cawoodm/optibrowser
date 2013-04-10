@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\OptiBrowserURL]
+@="OptiBrowser URL"
+"FriendlyTypeName"="OptiBrowser URL"
+"URL Protocol"=""
+"EditFlags"=dword:00000002
+
+[HKEY_CLASSES_ROOT\OptiBrowserURL\DefaultIcon]
+@="C:\\Program Files\\OptiBrowser\\OptiBrowser.exe,1"
+
+[HKEY_CLASSES_ROOT\OptiBrowserURL\shell]
+@="open"
+
+[HKEY_CLASSES_ROOT\OptiBrowserURL\shell\open]
+
+[HKEY_CLASSES_ROOT\OptiBrowserURL\shell\open\command]
+@="\"C:\\Program Files\\OptiBrowser\\OptiBrowser.exe\" \"%1\""
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice]
+"Progid"="OptiBrowserURL"
+
