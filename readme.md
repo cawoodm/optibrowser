@@ -10,10 +10,10 @@ By setting your default browser to OptiBrowser you can choose which browser the 
 <img src="screenshot.png"/>
 </center>
 
-##Installation
+## Installation
 Just download OptiBrowser.exe and make it your default browser. See [installation details](install/readme.md).
 
-##Roadmap
+## Roadmap
 Some ideas about where to go from here
 * (Current Version) Basic 3-browser selection (Internet Explorer, Firefox and Chrome)
 * Customisable browsers
